@@ -3,9 +3,9 @@ Mini Google Implementation in Console
 
 ### Prerequisites
 
-Install make to run MakeFile if you need
-Download the pre-processed data: http://212.8.251.77/foodForTrie.zip
-And the pre-processed database: http://212.8.251.77/database.zip
+Install make to run MakeFile if you need<br />
+Download the pre-processed data: http://212.8.251.77/foodForTrie.zip<br />
+And the pre-processed database: http://212.8.251.77/database.zip<br />
 and unzip in the folder mini-google-console
 
 ### CLONE
