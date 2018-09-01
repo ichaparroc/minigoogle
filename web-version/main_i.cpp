@@ -40,7 +40,7 @@ int main(void)
 
 	file.open("foodForTrie.txt");
 	//while ( getline(file,line)){
-	while ( getline(file,line) && i<459401){
+	while ( getline(file,line)){
 		istringstream iss(line);
 		getline(iss, word,'\t');
         palabra = word;
