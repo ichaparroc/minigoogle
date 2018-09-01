@@ -42,9 +42,11 @@ Mini Google Implementation in Web
 
 ### Prerequisites
 
+We need have http server, php and module for connect http-server with php. (Common LAMP server, but we only need php and http server). HTTP SERVER EXAMPLE: APACHE2.
+We need clone the repository into a "www" folder, for use php. For example, "/var/html/www" in linux.
 Install make to run MakeFile if you need
 Download the pre-processed data: http://212.8.251.77/foodForTrie.zip
-And the pre-processed database: http://212.8.251.77/database-web.zip
+And the pre-processed database: http://212.8.251.77/database.zip
 and unzip in the folder mini-google-web
 
 ### CLONE
@@ -63,13 +65,14 @@ make build
 ```
 Or
 ```
-g++ -g -Wall -fopenmp -std=c++11 -o -O3 main_i_console main_i_console.cpp 
+g++ -Wall -o3 -fopenmp -std=c++11 -o main_i main_i.cpp
+
 ```
 
 ### EXCUTE C++ API
 Run comand
 ```
-./main_i_console
+./main_i
 ```
 Or
 ```
