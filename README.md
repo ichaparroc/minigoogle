@@ -14,11 +14,11 @@ Clone repository
 
 Enter to folder minigoogle
 ```
- cd minigoogle
+ cd minigoogle/console-version
 ```
 
 ### COMPILE C++ API
-If you use MakeFile just run the next step on folder r-tree
+If you use MakeFile just run
 ```
 make build
 ```
@@ -53,11 +53,11 @@ Clone repository
 
 Enter to folder minigoogle
 ```
- cd minigoogle
+ cd minigoogle/web-version
 ```
 
 ### COMPILE C++ API
-If you use MakeFile just run the next step on folder r-tree
+If you use MakeFile just run
 ```
 make build
 ```
