@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -g -Wall -o3 -fopenmp -std=c++11
+CFLAGS = -O3 -fopenmp -std=c++11
 SRCS = main_i.cpp
 PROG = main_i
 
